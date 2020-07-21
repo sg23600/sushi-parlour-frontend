@@ -1,0 +1,465 @@
+@font-face {
+    font-family: "light";
+    src: url(fonts/Montserrat-Light.ttf)
+    format("truetype");
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(fonts/Montserrat-Medium.ttf)
+    format("truetype");
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(fonts/Montserrat-Bold.ttf)
+    format("truetype");
+}
+
+/* color: #a1b575 */
+/* #5c732e */
+
+@font-face {
+    font-family: "funny";
+    src: url(fonts/ShadowsIntoLight-Regular.ttf)
+    format("truetype");
+}
+
+html, body{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'light';
+}
+a, a:hover {
+    text-decoration: none;
+}
+#home {
+
+    background-image: url(img/home.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 20%;
+}
+
+nav {
+    padding-top: 2%;
+    text-align: end;
+    font-size: larger;
+    font-family: 'medium';
+}
+
+nav a, nav a:hover {
+    color: #a1b575;
+    
+}
+
+#home img {
+    display: block;
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+#home p {
+    /* margin-left: 70%;
+    margin-right: 5%; */
+    color: #a1b575;
+    font-size: 3rem;
+}
+
+.home-mini {
+    margin-left: 70%;
+    margin-right: 5%;
+}
+
+.b1, .b1:active {
+    color: #a1b575;
+    background-color: rgba(92, 115, 46, 0.5) ;
+}
+
+#cook {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-image: url(img/cook.png);   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#cook h2 {
+    font-family: 'funny';
+    font-weight:  bold;
+    color: #a1b575;
+    margin-left: 5%;
+}
+
+#cook p {
+    color: white;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#tradition {
+    background-image: url(img/tradition.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.new {
+    background-color: rgba(92, 115, 46, 0.7);
+    display: flex; 
+    justify-content: center; 
+}
+
+.new-mini {
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.new h2 {
+    font-family: 'funny';
+    font-weight:  bold;
+    color: #a1b575;
+}
+
+.new p {
+    color: white;
+}
+
+.tradition-mini {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: rgba(92, 115, 46, 0.5);
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.tradition-mini h1{
+    color: white;
+    padding-bottom: 5%;
+}
+
+.tradition-mini h2 {
+    padding-top: 5%;
+    font-family: 'funny';
+    font-weight:  bold;
+    color: #a1b575;
+}
+
+.tradition-mini p {
+    color: white;
+}
+
+.tradition-mini h5 {
+    font-family: 'funny';
+    font-weight:  bold;
+    color: #a1b575;
+}
+
+.dish {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dish-mini {
+    width: 50%;
+    display: flex;
+}
+
+.dish-mini img {
+    width: 50%;
+    height: auto;
+}
+
+.dish-mini-1 {
+    padding-top: 10%;
+    width: 50%;
+}
+
+.dish-mini-1 text {
+    color: white;
+    font-weight: bold;
+}
+
+.tradition-end {
+    background-color: rgba(92, 115, 46, 0.7);
+    padding: 10%;
+    text-align: center;
+}
+
+.tradition-end h3 {
+    font-family: 'funny';
+    font-weight:  bold;
+    color: #a1b575;
+}
+
+.tradition-end p {
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.discover {
+    background-image: url(img/discover.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding-bottom: 50%;
+}
+
+.discover-mini {
+    background-color: rgba(92, 115, 46, 0.7);
+}
+
+.discover-mini h1 {
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'funny';
+    font-weight: bolder;
+}
+
+.discover-mini h2 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.disc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disc-mini {
+    display: flex;
+    width: 50%;
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+.disc-mini h3 {
+    font-family: 'funny';
+    font-weight: bold;
+}
+
+.book {
+    background-image: url(img/book.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding-bottom: 40%;
+}
+
+.book h1 {
+    font-family: 'funny';
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.book-mini {
+    background-color: rgba(44, 43, 44, 0.85);
+}
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+input, select {
+    width: 70%;
+    color: white;
+    background-color: inherit;
+    border: 2px solid ivory;
+    border-radius: 10%;
+}
+
+.button {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+    margin-left: -5%;
+}
+
+.b2 {
+    font-size: small;
+    color: white;
+    background-color: inherit;
+    border: 2px solid;
+    padding: 5px 50px;
+}
+
+.discover-2 {
+    background-color: #383b32;
+}
+
+.discover-2 h1 {
+    padding-top: 5%;
+    color: #a1b575;
+    font-family: 'funny';
+    font-weight: bold;
+    text-align: center;
+}
+
+.discover-2 h2 {
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+}
+
+.discover-2-mini {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+
+.card {
+    border: none;
+    margin-bottom: 5%;
+}
+
+.linda {
+    background-color: #30312e;
+    color: #a1b575;
+    text-align: center;
+}
+
+.linda img {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.linda h5 {
+    font-family: 'funny';
+    font-weight: bold;
+}
+.linda p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    background-color: #383b32;
+    color: white;
+}
+
+.links a, .links a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.links-1 {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.links-2 {
+    padding-top: 5%;
+}
+
+@media (orientation: portrait) 
+{
+    #home img {
+        margin-left: 60%;
+    }
+
+    #home {
+        padding-bottom: 90%;
+    }
+    #home p {
+        /* margin-left: 60%; */
+        font-size: 20px;
+    }
+
+    .home-mini {
+        text-align: right;
+        margin-right: 15%;
+        margin-left: 30%;
+    }
+
+    #cook {
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+    #cook h2 {
+        width: 50%;
+    }
+    #cook p {
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .new {
+        flex-wrap: wrap;
+    }
+
+    .dish-mini {
+        width: max-content;
+        display: flex;
+    }
+
+    .dish-mini-1 {
+        font-size: smaller;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .tradition-end p {
+        margin: 0;
+    }
+    
+    .disc-mini {
+        width: 100%;
+    }
+
+    .disc-mini img {
+        width: 30%;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+
+    .bk {
+        margin-left: 5%;
+    }
+
+    input, select {
+        width: 90%;
+    }
+
+    .discover-2-mini {
+        flex-wrap: wrap;
+    }
+
+    .links-2 {
+        margin-left: 10%;
+    }
+}
